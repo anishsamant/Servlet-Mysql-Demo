@@ -7,18 +7,12 @@
 <title>Login</title>
 </head>
 <body>
-	<div class="container">
-		<form method="post" action="validate">
-			<label>User</label><br>
-			<input type="text" name="username"><br><br>
-
-			<label>Password</label><br>
-			<input type="Password" name="pass"><br><br>
-
-			<input type="submit" name="" id="subbtn">
-	</form>
-		<a href="register.jsp"><h3>Login</h3></a>
-	</div>
-
+<form action="Login" method="post">
+	<label>email:</label>
+	<input type="text" name="email">
+	<label>password:</label>
+	<input type="password" name="psw" ><br><br>
+	<input type="submit" value="submit">
+</form>
 </body>
 </html>

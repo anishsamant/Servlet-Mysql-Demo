@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="servletMysqlDemo">
+    <wb-module deploy-name="servletMysql">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="servletMysqlDemo"/>
-        <property name="java-output-path" value="/servletMysqlDemo/build/classes"/>
+        <wb-resource deploy-path="/" source-path="/build"/>
+        <property name="context-root" value="servletMysql"/>
+        <property name="java-output-path" value="/servletMysql/build/classes"/>
     </wb-module>
 </project-modules>
